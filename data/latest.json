@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T09:03:37.313931+10:00",
+  "updated_at": "2026-04-26T09:06:31.346086+10:00",
   "stats": {
     "News Items": "8",
     "Brisbane Temp": "19.0°C",
@@ -19,19 +19,19 @@
     "Errors": "0"
   },
   "summary": [
-    "监控时间: 2026-04-26 09:03:37 AEST",
+    "监控时间: 2026-04-26 09:06:31 AEST",
     "新闻抓取数量: 8",
     "布里斯班温度: 19.0°C",
     "AUD/USD: 0.714697"
   ],
   "summary_zh": [
-    "监控时间: 2026-04-26 09:03:37 AEST",
+    "监控时间: 2026-04-26 09:06:31 AEST",
     "新闻抓取数量: 8",
     "布里斯班温度: 19.0°C",
     "AUD/USD: 0.714697"
   ],
   "summary_en": [
-    "Monitor Time: 2026-04-26 09:03:37 AEST",
+    "Monitor Time: 2026-04-26 09:06:31 AEST",
     "News Items: 8",
     "Brisbane Temp: 19.0°C",
     "AUD/USD: 0.714697"
@@ -60,15 +60,26 @@
       "url": "https://open.er-api.com/"
     },
     {
+      "title": "Shaun Micallef would hate to be immortal, so he wrote a vampire novel",
+      "url": "https://www.abc.net.au/news/2026-04-26/shaun-micallef-death-takes-a-holiday-vampire-novel/106594994",
+      "description": "After Shaun Micallef finished up 11 years hosting comedy news show Mad as Hell in 2022, the comedian did something unexpected: he wrote a 'gothic romance novel'.",
+      "time": "2026-04-26 09:00",
+      "type": "news",
+      "title_en": "Shaun Micallef would hate to be immortal, so he wrote a vampire novel",
+      "title_zh": "肖恩·米卡勒夫不想永生，所以他写了一本吸血鬼小说",
+      "description_en": "After Shaun Micallef finished up 11 years hosting comedy news show Mad as Hell in 2022, the comedian did something unexpected: he wrote a 'gothic romance novel'.",
+      "description_zh": "肖恩·米卡莱夫 (Shaun Micallef) 于 2022 年结束了 11 年的喜剧新闻节目《疯狂地狱》的主持后，这位喜剧演员做了一件意想不到的事情：他写了一本“哥特式浪漫小说”。"
+    },
+    {
       "title": "FOI documents show vetting process for NT's controversial Crown representative",
       "url": "https://www.abc.net.au/news/2026-04-26/nt-administrator-david-connolly-social-media-due-diligence/106585072",
       "description": "Months before a furore over his social media posts, documents show the federal government completed background checks on controversial NT Administrator David Connolly.",
       "time": "2026-04-26 08:45",
       "type": "news",
       "title_en": "FOI documents show vetting process for NT's controversial Crown representative",
-      "title_zh": "FOI documents show vetting process for NT's controversial Crown representative",
+      "title_zh": "信息自由文件显示了北领地有争议的皇家代表的审查过程",
       "description_en": "Months before a furore over his social media posts, documents show the federal government completed background checks on controversial NT Administrator David Connolly.",
-      "description_zh": "Months before a furore over his social media posts, documents show the federal government completed background checks on controversial NT Administrator David Connolly."
+      "description_zh": "在他的社交媒体帖子引起轩然大波之前几个月，文件显示联邦政府完成了对有争议的北领地行政长官大卫·康诺利的背景调查。"
     },
     {
       "title": "Police shoot at car amid chaotic night across Melbourne",
@@ -77,9 +88,9 @@
       "time": "2026-04-26 08:44",
       "type": "news",
       "title_en": "Police shoot at car amid chaotic night across Melbourne",
-      "title_zh": "Police shoot at car amid chaotic night across Melbourne",
+      "title_zh": "墨尔本混乱的夜晚，警察向汽车开枪",
       "description_en": "Police are investigating multiple incidents overnight including a drive-by shooting, suspected firebombing and an allegedly violent attack on a tram.",
-      "description_zh": "Police are investigating multiple incidents overnight including a drive-by shooting, suspected firebombing and an allegedly violent attack on a tram."
+      "description_zh": "警方正在连夜调查多起事件，包括驾车枪击事件、疑似燃烧弹事件以及据称对电车的暴力袭击事件。"
     },
     {
       "title": "How Indonesian farmers are protecting Australia's $1b citrus industry",
@@ -88,9 +99,9 @@
       "time": "2026-04-26 08:33",
       "type": "news",
       "title_en": "How Indonesian farmers are protecting Australia's $1b citrus industry",
-      "title_zh": "How Indonesian farmers are protecting Australia's $1b citrus industry",
+      "title_zh": "印度尼西亚农民如何保护澳大利亚价值十亿美元的柑橘产业",
       "description_en": "An Australian-funded project is educating Indonesian farmers about a devastating citrus disease that has spread to all major growing regions except Australia.",
-      "description_zh": "An Australian-funded project is educating Indonesian farmers about a devastating citrus disease that has spread to all major growing regions except Australia."
+      "description_zh": "澳大利亚资助的一个项目正在对印度尼西亚农民进行有关一种毁灭性柑橘病害的教育，这种病害已蔓延到除澳大利亚以外的所有主要种植区。"
     },
     {
       "title": "'Waiting for Armageddon': Nimbin preppers ready if world goes up in smoke",
@@ -99,20 +110,9 @@
       "time": "2026-04-26 08:30",
       "type": "news",
       "title_en": "'Waiting for Armageddon': Nimbin preppers ready if world goes up in smoke",
-      "title_zh": "'Waiting for Armageddon': Nimbin preppers ready if world goes up in smoke",
+      "title_zh": "“等待世界末日”：如果世界陷入硝烟，宁宾已做好准备",
       "description_en": "It may not be the end of the world, but these Australians are finding creative ways to beat the cost-of-living crisis and improve their food security in troubled times.",
-      "description_zh": "It may not be the end of the world, but these Australians are finding creative ways to beat the cost-of-living crisis and improve their food security in troubled times."
-    },
-    {
-      "title": "'Self-belief, respect': Indigenous boxers building strength with David Pocock",
-      "url": "https://www.abc.net.au/news/2026-04-26/act-first-nations-youth-development-cultural-camp-cuz-boxing/106597544",
-      "description": "A Canberra Indigenous-led boxing camp is helping young fighters hone their skills for life inside and outside the ring in its first development camp, continuing a proud traditio...",
-      "time": "2026-04-26 08:11",
-      "type": "news",
-      "title_en": "'Self-belief, respect': Indigenous boxers building strength with David Pocock",
-      "title_zh": "'Self-belief, respect': Indigenous boxers building strength with David Pocock",
-      "description_en": "A Canberra Indigenous-led boxing camp is helping young fighters hone their skills for life inside and outside the ring in its first development camp, continuing a proud traditio...",
-      "description_zh": "A Canberra Indigenous-led boxing camp is helping young fighters hone their skills for life inside and outside the ring in its first development camp, continuing a proud traditio..."
+      "description_zh": "这可能不是世界末日，但这些澳大利亚人正在寻找创造性的方法来应对生活成本危机，并在困难时期改善粮食安全。"
     }
   ]
 }
