@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-04-26T09:06:31.346086+10:00",
+  "updated_at": "2026-04-26T09:18:10.264891+10:00",
   "stats": {
     "News Items": "8",
-    "Brisbane Temp": "19.0°C",
+    "Brisbane Temp": "19.5°C",
     "AUD/USD": "0.714697",
     "Errors": "0"
   },
   "stats_zh": {
     "新闻数量": "8",
-    "布里斯班温度": "19.0°C",
+    "布里斯班温度": "19.5°C",
     "澳元/美元": "0.714697",
     "异常数": "0"
   },
   "stats_en": {
     "News Items": "8",
-    "Brisbane Temp": "19.0°C",
+    "Brisbane Temp": "19.5°C",
     "AUD/USD": "0.714697",
     "Errors": "0"
   },
   "summary": [
-    "监控时间: 2026-04-26 09:06:31 AEST",
+    "监控时间: 2026-04-26 09:18:10 AEST",
     "新闻抓取数量: 8",
-    "布里斯班温度: 19.0°C",
+    "布里斯班温度: 19.5°C",
     "AUD/USD: 0.714697"
   ],
   "summary_zh": [
-    "监控时间: 2026-04-26 09:06:31 AEST",
+    "监控时间: 2026-04-26 09:18:10 AEST",
     "新闻抓取数量: 8",
-    "布里斯班温度: 19.0°C",
+    "布里斯班温度: 19.5°C",
     "AUD/USD: 0.714697"
   ],
   "summary_en": [
-    "Monitor Time: 2026-04-26 09:06:31 AEST",
+    "Monitor Time: 2026-04-26 09:18:10 AEST",
     "News Items: 8",
-    "Brisbane Temp: 19.0°C",
+    "Brisbane Temp: 19.5°C",
     "AUD/USD: 0.714697"
   ],
   "events": [
@@ -41,10 +41,10 @@
       "title": "Brisbane Weather",
       "title_en": "Brisbane Weather",
       "title_zh": "布里斯班天气",
-      "description": "Temperature 19.0°C, Wind 9.5km/h",
-      "description_en": "Temperature 19.0°C, Wind 9.5km/h",
-      "description_zh": "温度 19.0°C，风速 9.5km/h",
-      "time": "2026-04-26 09:00",
+      "description": "Temperature 19.5°C, Wind 9.7km/h",
+      "description_en": "Temperature 19.5°C, Wind 9.7km/h",
+      "description_zh": "温度 19.5°C，风速 9.7km/h",
+      "time": "2026-04-26 09:15",
       "type": "weather",
       "url": ""
     },
