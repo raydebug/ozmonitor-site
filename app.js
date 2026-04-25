@@ -1,7 +1,42 @@
+const I18N = {
+  zh: {
+    subtitle: "本地定时生成，GitHub Pages 展示",
+    lastUpdate: "最后更新",
+    summaryTitle: "简报",
+    eventsTitle: "事件流",
+    source: "来源",
+    loadFailed: "加载失败",
+  },
+  en: {
+    subtitle: "Generated on local PC and displayed on GitHub Pages",
+    lastUpdate: "Last Update",
+    summaryTitle: "Summary",
+    eventsTitle: "Events",
+    source: "Source",
+    loadFailed: "Load Failed",
+  },
+};
+
+let currentLang = "zh";
+let currentData = null;
+
 async function loadData() {
   const res = await fetch("./data/latest.json?ts=" + Date.now());
   if (!res.ok) throw new Error("failed to load data");
   return res.json();
+}
+
+function setLanguage(lang) {
+  currentLang = lang === "en" ? "en" : "zh";
+  const t = I18N[currentLang];
+  document.getElementById("subtitle").textContent = t.subtitle;
+  document.getElementById("lastUpdateLabel").textContent = t.lastUpdate;
+  document.getElementById("summaryTitle").textContent = t.summaryTitle;
+  document.getElementById("eventsTitle").textContent = t.eventsTitle;
+  document.getElementById("btnZh").classList.toggle("active", currentLang === "zh");
+  document.getElementById("btnEn").classList.toggle("active", currentLang === "en");
+  localStorage.setItem("ozmonitor_lang", currentLang);
+  if (currentData) renderAll(currentData);
 }
 
 function renderStats(stats) {
@@ -31,10 +66,11 @@ function renderSummary(summary) {
 function renderEvents(events) {
   const root = document.getElementById("events");
   root.innerHTML = "";
+  const t = I18N[currentLang];
   (events || []).forEach((item) => {
     const box = document.createElement("article");
     box.className = "event-item";
-    const linkHtml = item.url ? `<a href="${item.url}" target="_blank" rel="noreferrer">来源</a>` : "";
+    const linkHtml = item.url ? `<a href="${item.url}" target="_blank" rel="noreferrer">${t.source}</a>` : "";
     box.innerHTML = `
       <div class="event-top">
         <div class="event-title">${item.title || "-"}</div>
@@ -47,15 +83,30 @@ function renderEvents(events) {
   });
 }
 
+function resolveSummary(data) {
+  if (currentLang === "en") return data.summary_en || data.summary || [];
+  return data.summary_zh || data.summary || [];
+}
+
+function renderAll(data) {
+  document.getElementById("updatedAt").textContent = data.updated_at || "--";
+  renderStats(data.stats);
+  renderSummary(resolveSummary(data));
+  renderEvents(data.events);
+}
+
 async function main() {
+  document.getElementById("btnZh").addEventListener("click", () => setLanguage("zh"));
+  document.getElementById("btnEn").addEventListener("click", () => setLanguage("en"));
+  const saved = localStorage.getItem("ozmonitor_lang");
+  const browserLang = (navigator.language || "").toLowerCase();
+  setLanguage(saved || (browserLang.startsWith("zh") ? "zh" : "en"));
+
   try {
-    const data = await loadData();
-    document.getElementById("updatedAt").textContent = data.updated_at || "--";
-    renderStats(data.stats);
-    renderSummary(data.summary);
-    renderEvents(data.events);
+    currentData = await loadData();
+    renderAll(currentData);
   } catch (err) {
-    document.getElementById("updatedAt").textContent = "load failed";
+    document.getElementById("updatedAt").textContent = I18N[currentLang].loadFailed;
     console.error(err);
   }
 }

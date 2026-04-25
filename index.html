@@ -12,23 +12,29 @@
       <header class="hero">
         <div>
           <h1>Australia Monitor Lite</h1>
-          <p class="sub">本地定时生成，GitHub Pages 展示</p>
+          <p class="sub" id="subtitle">本地定时生成，GitHub Pages 展示</p>
         </div>
-        <div class="meta">
-          <div class="meta-label">Last Update</div>
-          <div id="updatedAt">--</div>
+        <div class="hero-right">
+          <div class="lang-switch" role="group" aria-label="language switch">
+            <button id="btnZh" class="lang-btn active" type="button">中文</button>
+            <button id="btnEn" class="lang-btn" type="button">EN</button>
+          </div>
+          <div class="meta">
+            <div class="meta-label" id="lastUpdateLabel">Last Update</div>
+            <div id="updatedAt">--</div>
+          </div>
         </div>
       </header>
 
       <section class="stats" id="stats"></section>
 
       <section class="panel">
-        <h2>简报</h2>
+        <h2 id="summaryTitle">简报</h2>
         <ul id="summaryList" class="summary-list"></ul>
       </section>
 
       <section class="panel">
-        <h2>事件流</h2>
+        <h2 id="eventsTitle">事件流</h2>
         <div id="events" class="event-list"></div>
       </section>
     </main>

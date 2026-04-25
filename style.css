@@ -44,6 +44,13 @@ body {
   gap: 16px;
 }
 
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 8px;
+}
+
 h1 {
   margin: 0;
   font-size: clamp(28px, 4vw, 42px);
@@ -61,6 +68,30 @@ h1 {
   border-radius: 8px;
   padding: 10px 14px;
   min-width: 220px;
+}
+
+.lang-switch {
+  display: inline-flex;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.lang-btn {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.lang-btn.active {
+  background: var(--accent-soft);
+  color: #0f6b45;
+  font-weight: 600;
 }
 
 .meta-label {
@@ -173,6 +204,11 @@ a:hover {
 @media (max-width: 720px) {
   .hero {
     flex-direction: column;
+    align-items: start;
+  }
+
+  .hero-right {
+    width: 100%;
     align-items: start;
   }
 
