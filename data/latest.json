@@ -1,17 +1,118 @@
 {
-  "updated_at": "2026-04-26T08:41:20.325070+10:00",
+  "updated_at": "2026-04-26T09:03:37.313931+10:00",
   "stats": {
-    "News Items": "0",
-    "Brisbane Temp": "N/A",
-    "AUD/USD": "N/A",
-    "Errors": "3"
+    "News Items": "8",
+    "Brisbane Temp": "19.0°C",
+    "AUD/USD": "0.714697",
+    "Errors": "0"
+  },
+  "stats_zh": {
+    "新闻数量": "8",
+    "布里斯班温度": "19.0°C",
+    "澳元/美元": "0.714697",
+    "异常数": "0"
+  },
+  "stats_en": {
+    "News Items": "8",
+    "Brisbane Temp": "19.0°C",
+    "AUD/USD": "0.714697",
+    "Errors": "0"
   },
   "summary": [
-    "监控时间: 2026-04-26 08:41:20 AEST",
-    "新闻抓取数量: 0",
-    "布里斯班温度: N/A",
-    "AUD/USD: N/A",
-    "异常: news: <urlopen error [WinError 10013] An attempt was made to access a socket in a way f...; weather: <urlopen error [WinError 10013] An attempt was made to access a socket in a wa...; fx: <urlopen error [WinError 10013] An attempt was made to access a socket in a way for..."
+    "监控时间: 2026-04-26 09:03:37 AEST",
+    "新闻抓取数量: 8",
+    "布里斯班温度: 19.0°C",
+    "AUD/USD: 0.714697"
   ],
-  "events": []
+  "summary_zh": [
+    "监控时间: 2026-04-26 09:03:37 AEST",
+    "新闻抓取数量: 8",
+    "布里斯班温度: 19.0°C",
+    "AUD/USD: 0.714697"
+  ],
+  "summary_en": [
+    "Monitor Time: 2026-04-26 09:03:37 AEST",
+    "News Items: 8",
+    "Brisbane Temp: 19.0°C",
+    "AUD/USD: 0.714697"
+  ],
+  "events": [
+    {
+      "title": "Brisbane Weather",
+      "title_en": "Brisbane Weather",
+      "title_zh": "布里斯班天气",
+      "description": "Temperature 19.0°C, Wind 9.5km/h",
+      "description_en": "Temperature 19.0°C, Wind 9.5km/h",
+      "description_zh": "温度 19.0°C，风速 9.5km/h",
+      "time": "2026-04-26 09:00",
+      "type": "weather",
+      "url": ""
+    },
+    {
+      "title": "AUD/USD",
+      "title_en": "AUD/USD",
+      "title_zh": "澳元/美元",
+      "description": "1 AUD = 0.714697 USD",
+      "description_en": "1 AUD = 0.714697 USD",
+      "description_zh": "1 澳元 = 0.714697 美元",
+      "time": "Sat, 25 Apr 2026 00:02:32 +0000",
+      "type": "market",
+      "url": "https://open.er-api.com/"
+    },
+    {
+      "title": "FOI documents show vetting process for NT's controversial Crown representative",
+      "url": "https://www.abc.net.au/news/2026-04-26/nt-administrator-david-connolly-social-media-due-diligence/106585072",
+      "description": "Months before a furore over his social media posts, documents show the federal government completed background checks on controversial NT Administrator David Connolly.",
+      "time": "2026-04-26 08:45",
+      "type": "news",
+      "title_en": "FOI documents show vetting process for NT's controversial Crown representative",
+      "title_zh": "FOI documents show vetting process for NT's controversial Crown representative",
+      "description_en": "Months before a furore over his social media posts, documents show the federal government completed background checks on controversial NT Administrator David Connolly.",
+      "description_zh": "Months before a furore over his social media posts, documents show the federal government completed background checks on controversial NT Administrator David Connolly."
+    },
+    {
+      "title": "Police shoot at car amid chaotic night across Melbourne",
+      "url": "https://www.abc.net.au/news/2026-04-26/police-investigate-drive-by-shooting-firebombing-chapel-street/106607528",
+      "description": "Police are investigating multiple incidents overnight including a drive-by shooting, suspected firebombing and an allegedly violent attack on a tram.",
+      "time": "2026-04-26 08:44",
+      "type": "news",
+      "title_en": "Police shoot at car amid chaotic night across Melbourne",
+      "title_zh": "Police shoot at car amid chaotic night across Melbourne",
+      "description_en": "Police are investigating multiple incidents overnight including a drive-by shooting, suspected firebombing and an allegedly violent attack on a tram.",
+      "description_zh": "Police are investigating multiple incidents overnight including a drive-by shooting, suspected firebombing and an allegedly violent attack on a tram."
+    },
+    {
+      "title": "How Indonesian farmers are protecting Australia's $1b citrus industry",
+      "url": "https://www.abc.net.au/news/2026-04-26/australia-indonesia-project-stop-citrus-disease-spread/106563932",
+      "description": "An Australian-funded project is educating Indonesian farmers about a devastating citrus disease that has spread to all major growing regions except Australia.",
+      "time": "2026-04-26 08:33",
+      "type": "news",
+      "title_en": "How Indonesian farmers are protecting Australia's $1b citrus industry",
+      "title_zh": "How Indonesian farmers are protecting Australia's $1b citrus industry",
+      "description_en": "An Australian-funded project is educating Indonesian farmers about a devastating citrus disease that has spread to all major growing regions except Australia.",
+      "description_zh": "An Australian-funded project is educating Indonesian farmers about a devastating citrus disease that has spread to all major growing regions except Australia."
+    },
+    {
+      "title": "'Waiting for Armageddon': Nimbin preppers ready if world goes up in smoke",
+      "url": "https://www.abc.net.au/news/2026-04-26/australia-preppers-are-ready-for-the-fuel-crisis/106597748",
+      "description": "It may not be the end of the world, but these Australians are finding creative ways to beat the cost-of-living crisis and improve their food security in troubled times.",
+      "time": "2026-04-26 08:30",
+      "type": "news",
+      "title_en": "'Waiting for Armageddon': Nimbin preppers ready if world goes up in smoke",
+      "title_zh": "'Waiting for Armageddon': Nimbin preppers ready if world goes up in smoke",
+      "description_en": "It may not be the end of the world, but these Australians are finding creative ways to beat the cost-of-living crisis and improve their food security in troubled times.",
+      "description_zh": "It may not be the end of the world, but these Australians are finding creative ways to beat the cost-of-living crisis and improve their food security in troubled times."
+    },
+    {
+      "title": "'Self-belief, respect': Indigenous boxers building strength with David Pocock",
+      "url": "https://www.abc.net.au/news/2026-04-26/act-first-nations-youth-development-cultural-camp-cuz-boxing/106597544",
+      "description": "A Canberra Indigenous-led boxing camp is helping young fighters hone their skills for life inside and outside the ring in its first development camp, continuing a proud traditio...",
+      "time": "2026-04-26 08:11",
+      "type": "news",
+      "title_en": "'Self-belief, respect': Indigenous boxers building strength with David Pocock",
+      "title_zh": "'Self-belief, respect': Indigenous boxers building strength with David Pocock",
+      "description_en": "A Canberra Indigenous-led boxing camp is helping young fighters hone their skills for life inside and outside the ring in its first development camp, continuing a proud traditio...",
+      "description_zh": "A Canberra Indigenous-led boxing camp is helping young fighters hone their skills for life inside and outside the ring in its first development camp, continuing a proud traditio..."
+    }
+  ]
 }
