@@ -1,0 +1,66 @@
+{
+  "updated_at": "2026-04-26T08:14:11.267440+10:00",
+  "stats": {
+    "News Items": "8",
+    "Brisbane Temp": "17.2°C",
+    "AUD/USD": "0.714697",
+    "Errors": "0"
+  },
+  "summary": [
+    "监控时间: 2026-04-26 08:14:11 AEST",
+    "新闻抓取数量: 8",
+    "布里斯班温度: 17.2°C",
+    "AUD/USD: 0.714697"
+  ],
+  "events": [
+    {
+      "title": "Brisbane Weather",
+      "description": "Temperature 17.2°C, Wind 9.3km/h",
+      "time": "2026-04-26 08:00",
+      "type": "weather",
+      "url": ""
+    },
+    {
+      "title": "AUD/USD",
+      "description": "1 AUD = 0.714697 USD",
+      "time": "Sat, 25 Apr 2026 00:02:32 +0000",
+      "type": "market",
+      "url": "https://open.er-api.com/"
+    },
+    {
+      "title": "Walter lost his wife and daughters at Port Arthur. Thirty years on, this is his message",
+      "url": "https://www.abc.net.au/news/2026-04-26/tasmania-port-arthur-thirty-year-anniversary/106588810",
+      "description": "On April 28, 1996, a gunman killed 35 people at Port Arthur. Walter Mikac's wife and two daughters were among them. Thirty years on, he says gun control is as important as ever.",
+      "time": "2026-04-26 08:04",
+      "type": "news"
+    },
+    {
+      "title": "Ancient and 'sterile' plant population found, but its location remains a secret",
+      "url": "https://www.abc.net.au/news/2026-04-26/kings-lomatia-population-found-in-tasmanian-wilderness/106601668",
+      "description": "A second population of an ancient tree, King's lomatia, has been found in the south-west of Tasmania. A scientist says the precise location must be kept secret, or risk being 'k...",
+      "time": "2026-04-26 08:03",
+      "type": "news"
+    },
+    {
+      "title": "You can holiday for free at this remote island, but there's a catch",
+      "url": "https://www.abc.net.au/news/2026-04-26/campground-hosting-on-qld-national-park-islands/106563278",
+      "description": "North West Island is one of five national parks where you can holiday in exchange for campground hosting duties.",
+      "time": "2026-04-26 08:00",
+      "type": "news"
+    },
+    {
+      "title": "Can commercial farming and conservation co-exist?",
+      "url": "https://www.abc.net.au/news/2026-04-26/predator-free-farm-helps-endangered-species-thrive/106596356",
+      "description": "A predator-proof fence at a Victorian farm is helping endangered species recover while proving conservation and agriculture can successfully co-exist.",
+      "time": "2026-04-26 07:31",
+      "type": "news"
+    },
+    {
+      "title": "Ollie Hollands 'in a good space' despite late omission after brother's struggles",
+      "url": "https://www.abc.net.au/news/2026-04-26/ollie-hollands-elijah-hollands-carlton-fremantle-afl-game/106607476",
+      "description": "Carlton coach Michael Voss says Elijah Hollands's younger brother Ollie is doing OK despite being a late out for the club's Anzac Day clash with Fremantle.",
+      "time": "2026-04-26 07:26",
+      "type": "news"
+    }
+  ]
+}
